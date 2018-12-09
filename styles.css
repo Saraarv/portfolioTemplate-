@@ -1,5 +1,7 @@
 body {
-	background: url(images/winter.jpeg) no-repeat center center fixed; /*url(images/bg.jpg) no-repeat center center fixed; */
+	background: url(images/beige.jpg) no-repeat center center fixed; /*url(images/bg.jpg) no-repeat center center fixed; */
+	background-size: cover;
+	background-position: center;
 }
 
 .section {
@@ -14,6 +16,19 @@ body {
 .header {
 	text-align: center;
 	color: white;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+
+
+
+.img-responsive {
+	border-radius: 50%;
 }
 
 #projects {
@@ -37,6 +52,7 @@ body {
 .company-logo {
 	margin-bottom: 10px;
 	width: 50%;
+
 }
 
 #expertese {
